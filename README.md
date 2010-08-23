@@ -18,10 +18,15 @@ Wikipydia can:
 
 - fetch parsed markup (html)
 
+- get all wikipedia categories, this method returns a python generator. because wikipedia's categories are so many be carefull how you use this (last time I reached 100 000 categories)
+
 Install
 -------
 
 python ./setup.py install
 
 
-James Dennis <<jd@j2labs.net>>
+Pedro Araújo <pedromcaraujo@gmail.com>
+
+Project forked, original developer:
+James Dennis <jd@j2labs.net>
